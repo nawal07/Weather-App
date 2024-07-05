@@ -1,8 +1,12 @@
-# React + Vite
+This is a Weather Forecast Application. This Application is built using React JS framework for Front End and Node JS for Back End and MongoDB for Database. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this Web App we fetch the Weather faorecast of the desired Country using an API called OpenWeatherMap. 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this application in your PC , Firstly Clone this repository to your local PC. Then you will have to setup the environment to run a React Project in your PC.
+
+After setting up the environment, Just run the command 'npm i' , this command will install all the necessary dependencies that are mentioned in the package.json file, which are required to run this Application smoothly and without errors. 
+
+Then you will have to go to the **server** directory inside the App folder then run the command 'npm start' to start the server. After this you will have to move back on to the App folder and run the command 'npm run dev' to start the Front End .
+
+Then the Application will start to run in a port number which will be mentioned in the terminal. Follow the link to proceed to the website. Now the application is live .Enjoy the Weather App
