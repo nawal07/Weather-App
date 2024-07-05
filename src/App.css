@@ -1,0 +1,77 @@
+.main-container {
+  width: 90%;
+  height: 35rem;
+  border-radius: 20px;
+  margin: 50px auto;
+  padding: 0 20px;
+  background-image: url(main-img.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.weather-now {
+  width: 25rem;
+  height: 25rem;
+  margin-top: 70px;
+  /* margin: 70px 85px; */
+  border-radius: 20px;
+  background-color: rgb(245, 223, 163);
+  color: rgb(193, 88, 88);
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.weather-now-head {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.fa-chevron-down{
+  padding-top: 5px;
+}
+
+.weather-now-body {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.fa-o {
+  font-size: 10px;
+}
+
+.weather-now-tail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 15px;
+  font-size: 17px;
+}
+
+.weather-forecast{
+  width: 25rem;
+  height: 12rem;
+  margin-top: 70px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text{
+  position: absolute;
+  bottom: 275px;
+  right: 200px;
+  width:475px
+}
